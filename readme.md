@@ -1,18 +1,18 @@
-# Gerador de relatórios de testes
+# 📝 Gerador de relatórios de testes
 
-Este projeto foi desenvolvido como requisito do Projeto de Extensão da disciplina Tópicos de Big Data em Python do curso de Análise e Desenvolvimento de Sistemas (ADS).
+Este projeto foi desenvolvido para o Projeto de Extensão da disciplina Tópicos de Big Data em Python do curso de Análise e Desenvolvimento de Sistemas (ADS).
 
-# Objetivo
+## 🎯 Objetivo
 
 O objetivo deste projeto é visualizar os resultados de testes manuais/automatizados a partir de um arquivo CSV com dados de execução de testes. Usando bibliotecas como `pandas` para manipulação de dados e `plotly.express` para a visualização gráfica, ele filtra os dados e gera gráficos interativos mostrando a distribuição de testes que passaram, falharam ou foram bloqueados em cada suíte de testes.
 
-# Tecnologias utilizadas
+## 🤖 Tecnologias utilizadas
 
 - **Python 3.6+**
 - **Pandas**: Para manipulação e análise dos dados
 - **Plotly**: Para criação de gráficos interativos
 
-# Como Executar
+## ▶️ Como Executar
 
 #### 1. Clonar o repositório
 
