@@ -1,0 +1,17 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,step_comments,comment,stacktrace,priority,severity,automation,type,tags,case_parameter,is_muted
+3,"Validar que não é possível se autenticar com dados em branco",Autenticação,1,"Ana Luisa Fávaro de Souza",773,Passed,"2024-09-15 19:10:09",,,,,,,,"Not set",Normal,Manual,Other,,,false
+4,"Validar que não é possível se autenticar com CPF válido mas não cadastrado",Autenticação,1,"Ana Luisa Fávaro de Souza",775,Passed,"2024-09-15 19:10:12",,,,,,,,"Not set",Normal,Manual,Other,,,false
+5,"Validar que não é possível se autenticar com CPF inválido",Autenticação,1,"Ana Luisa Fávaro de Souza",586,Passed,"2024-09-15 19:10:14",,,,,,,,"Not set",Normal,Manual,Other,,,false
+6,"Validar que não é possível se autenticar com CPF válido e senha inválida",Autenticação,1,"Ana Luisa Fávaro de Souza",799,Passed,"2024-09-15 19:10:17",,,,,,,,"Not set",Normal,Manual,Other,,,false
+7,"Validar que não é possível se autenticar com CPF válido e senha em branco",Autenticação,1,"Ana Luisa Fávaro de Souza",11000,Failed,"2024-09-15 19:10:30",,,,,,,,"Not set",Normal,Manual,Other,,,false
+8,"Validar que é possível se autenticar com CPF válido e senha válida",Autenticação,1,"Ana Luisa Fávaro de Souza",1735,Passed,"2024-09-15 19:10:46",,,,,,,,"Not set",Normal,Manual,Other,,,false
+9,"Adicionar produto disponível ao carrinho",Compras,2,"Ana Luisa Fávaro de Souza",6000,Blocked,"2024-09-15 19:10:54",,,,,,"Não há produto disponível",,"Not set",Normal,Manual,Other,,,false
+9,"Adicionar produto disponível ao carrinho",Compras,2,"Ana Luisa Fávaro de Souza",0,Retest,"2024-09-15 19:11:50",,,,,,,,"Not set",Normal,Manual,Other,,,false
+9,"Adicionar produto disponível ao carrinho",Compras,2,"Ana Luisa Fávaro de Souza",0,Failed,"2024-09-15 19:11:51",,,,,,,,"Not set",Normal,Manual,Other,,,false
+10,"Tentar adicionar produto fora de estoque ao carrinho",Compras,2,"Ana Luisa Fávaro de Souza",3936,Passed,"2024-09-15 19:11:20",,,,,,,,"Not set",Normal,Manual,Other,,,false
+11,"Adicionar múltiplos produtos de diferentes categorias ao carrinho",Compras,2,"Ana Luisa Fávaro de Souza",9000,Blocked,"2024-09-15 19:11:31",,,,,,,,"Not set",Normal,Manual,Other,,,false
+12,"Adicionar produto ao carrinho e verificar a quantidade",Compras,2,"Ana Luisa Fávaro de Souza",5000,Blocked,"2024-09-15 19:11:47",,,,,,,,"Not set",Normal,Manual,Other,,,false
+13,"Alterar a quantidade de um produto no carrinho",Compras,2,"Ana Luisa Fávaro de Souza",0,Blocked,"2024-09-15 19:12:10",,,,,,,,"Not set",Normal,Manual,Other,,,false
+14,"Remover produto do carrinho",Compras,2,"Ana Luisa Fávaro de Souza",11000,Blocked,"2024-09-15 19:12:31",,,,,,,,"Not set",Normal,Manual,Other,,,false
+15,"Adicionar produto com variações (tamanho, cor, etc.) ao carrinho",Compras,2,"Ana Luisa Fávaro de Souza",1000,Blocked,"2024-09-15 19:12:30",,,,,,,,"Not set",Normal,Manual,Other,,,false
+16,"Tentar adicionar produto com variação esgotada",Compras,2,"Ana Luisa Fávaro de Souza",2184,Passed,"2024-09-15 19:12:27",,,,,,,,"Not set",Normal,Manual,Other,,,false
