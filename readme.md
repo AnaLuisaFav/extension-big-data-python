@@ -4,7 +4,7 @@ Este projeto foi desenvolvido para o Projeto de Extensão da disciplina Tópicos
 
 ## 🎯 Objetivo
 
-O objetivo deste projeto é visualizar os resultados de testes manuais/automatizados a partir de um arquivo CSV com dados de execução de testes. Usando bibliotecas como `pandas` para manipulação de dados e `plotly.express` para a visualização gráfica, ele filtra os dados e gera gráficos interativos mostrando a distribuição de testes que passaram, falharam ou foram bloqueados em cada suíte de testes.
+O objetivo deste projeto é visualizar os resultados de testes manuais/automatizados a partir de um arquivo CSV com dados de execução de testes. Usando bibliotecas como `pandas` e `plotly`, ele filtra os dados e gera gráficos interativos mostrando a distribuição de testes que passaram, falharam ou foram bloqueados em cada suíte de testes.
 
 ## 🤖 Tecnologias utilizadas
 
